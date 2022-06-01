@@ -1,0 +1,262 @@
+#blue{
+	color:#357EC7;
+	
+}
+
+#btn{
+	color:#357EC7;
+	padding:10px 20px;
+	background-color:ccffff;
+}
+
+
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#contentBoxDemoGreenTable{
+	width:100%;
+	background:#ccffff;
+	background:-moz-linear-gradient(50% 0%, #ccffff 0%, #ccffff 100%);
+	background:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0,#ccffff),color-stop(1,#ccffff));
+	background:-o-linear-gradient(270deg, #ccffff 0%, #ccffff 100%);
+	border-top:1px solid #ccffff !important;
+	border-bottom:1px solid #ccffff !important;
+	margin:0px;
+	
+	
+}
+
+#contentBoxDemoGreenTD{
+	width:100%;
+	color:Blue;
+	text-align:center;
+}
+
+#booking {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-position: center;
+	
+}
+
+#booking::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	
+}
+
+.booking-form {
+	max-width: 642px;
+	width: 100%;
+	margin: auto;
+}
+
+.booking-form .form-header {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.booking-form .form-header h1 {
+	font-size: 48px;
+	font-family: 'Roboto', time new roman;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #000;
+	text-shadow: 0 0 1px #c0c0c0, 0 0 1px #c0c0c0;
+	margin: 0px;
+}
+
+.booking-form>form {
+	background-color: #bdedff;
+	padding: 60px 30px;
+	border-radius: 5px;
+	
+}
+
+
+
+#dltbtn{
+	
+	background-color:#6495ed;
+	
+	color:#151b54;
+	text-align:center;
+	
+}
+
+#dlt{
+	background-color:#f8f8ff;
+}
+
+.booking-table .dlt{
+	background-color:#f8f8ff;
+}
+
+#etbtn{
+	position:center;
+	
+	background-color:#6495ed;
+	
+	color:#151b54;
+	
+}
+
+
+
+.booking-table>table{
+	background-color: #fff;
+	padding: 80px 80px 40px;
+	border-radius: 8px;
+	position: center;
+	width: 50%;
+	margin-left:30%;
+	margin-right:30%;
+	height:100%;
+}
+
+.booking-table .table-label {
+	color: #000;
+	font-size: 15px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px #000, 0 0 1px #000;
+	text-align:center;
+	
+	
+}
+
+.booking-table .deletetable{
+	background-color: #fff;
+	padding: 60px 60px;
+	border-radius: 8px;
+	position: center;
+	width: 100%;
+	margin-left:30%;
+	margin-right:10%;
+	height:100%;
+	
+}
+
+
+#longtext{
+	width:100px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+
+
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 15px;
+	
+}
+
+.booking-form .uform {
+   position: center;
+
+}
+
+
+
+.booking-form .form-control {
+	background-color: #f5f5f5;
+	border: none;
+	height: 40px;
+	border-radius: 2px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	font-weight: 300;
+	color: #101113;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form .form-control::placeholder {
+	color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: rgba(16, 17, 19, 0.3);
+}
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	bottom: 6px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: #101113;
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	color: #000;
+	font-size: 22px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px #000, 0 0 1px #000;
+}
+
+.booking-form .form-topic {
+	color: #000;
+	font-size: 16px;
+	font-weight: 200;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.booking-form .submit-btn {
+	color: #fff;
+	background-color: #123456;
+	font-weight: 900;
+	font-size: 14px;
+	height: 50px;
+	border: none;
+	width: 100%;
+	display: block;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
